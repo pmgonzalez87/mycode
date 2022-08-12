@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 
+
+
+# Get input from user and assign it to score variable.
 score=int(input("Enter your score: "))
 
+# Associate score with letter grade
 letter_grade = ""
-
 if score >=90:
     print("Congratulations!!! You have an A!")
 elif score >=80:
