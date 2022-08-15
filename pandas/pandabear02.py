@@ -4,13 +4,13 @@
 
 import pandas as pd
 
+#create some graphs
+import matplotlib.pyplot as plt
+
 # these following two lines are for writing to file
 # use this when you are not rendering to a window
 import matplotlib
 matplotlib.use('Agg')
-
-# create some graphs
-import matplotlib.pyplot as plt
 
 def main():
     # define the name of our xls file
@@ -60,4 +60,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
